@@ -1,89 +1,59 @@
-html {
-        font-family: 'Open Sans', sans-serif;
-        background: url(pattern.png);
-      }
+body {
 
-      body {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        background-color: white;
-        position: relative;
-      }
+width: 1200px;
+margin: 0 auto;
+padding: 0 22px 22px 22px;
+border: 5px solid white;
+background-image: url(i.jpg)
 
 
-      header {
-        height: 150px;
-      }
-
-      header img {
-        width: 100px;
-        position: relative;
-        right: 70px;
-        top: 32.5px;
-      }
-
-      h1 {
-        font-size: 50px;
-        line-height: 140px;
-        margin: 0 0 0 32.5px;
-      }
-
-    
-
-      main {
-        background: #ccc;
-      }
-
-      article {
-        padding: 20px;
-      }
-
-      h2 {
-        margin-top: 0;
-      }
-
-      p {
-        line-height: 2;
-      }
-
-      iframe {
-        float: left;
-        margin: 0 20px 20px 0;
-        max-width: 100%;
-      }
-
-  
-
-      .further-info {
-        clear: left;
-        padding: 40px 0;
-        background: #c13832;
-        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
-                    inset 0 -3px 2px rgba(0,0,0,0.5);
-      }
-
-      .further-info a {
-        width: 25%;
-        display: block;
-        float: left;
-      }
-
-      .further-info img {
-        max-width: 100%;
-      }
-
-      .clearfix {
-        clear: both;
-      }
 
 
-      .red-panda img {
-        display: block;
-        max-width: 100%;
-      }
+
+
+
+
+
+}
+
+h1 {
+    color: White;
+font-weight: 500;
+font-stretch: expanded;
+font-style: oblique;
+font-family: "Arial";
+font-size: x-large;
+
+
+
+
+
+
+}
+
+p {
+    color: White;
+font-weight: 700;
+font-stretch: normal;
+font-style: oblique;
+font-family: "Times New Roman";
+font-size: medium;
+
+
+} 
+
+li { color: White;
+font-weight: 300;
+font-stretch: normal;
+font-style: oblique;
+font-family: "Verdana";
+font-size: medium;
+
+
+}
 
 #clock{
     color: #FFFFFF;
  font-weight: bold;
-  font-size: 1000px;
+  font-size: 100px;
+}
