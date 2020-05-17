@@ -1,13 +1,7 @@
-
-
-
 const para = document.querySelector('p');
-
 para.addEventListener('click', updateName);
 
 function updateName() {
-  let name = prompt('Enter a new name');
-  para.textContent = 'Нажми на меня ' + name;
+    let name = prompt('Enter a new name');
+    para.textContent = 'Нажми на меня ' + name;
 }
-
-
