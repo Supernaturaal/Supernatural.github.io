@@ -1,7 +1,11 @@
-const para = document.querySelector('p');
-para.addEventListener('click', updateName);
+function createParagraph() {
+  let para = document.createElement('p');
+  para.textContent = 'Перестань.';
+  document.body.appendChild(para);
+}
 
-function updateName() {
-    let name = prompt('Enter a new name');
-    para.textContent = 'Нажми на меня ' + name;
+const buttons = document.querySelectorAll('button');
+
+for(let i = 0; i < buttons.length ; i++) {
+  buttons[i].addEventListener('click', createParagraph);
 }
